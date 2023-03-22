@@ -18,15 +18,17 @@ ul{
     gap: 100px;
     list-style: none;
     margin-left: 100px;
+   
 }
 li{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
     color: #373737;
+    cursor: pointer;
 }
 .logo{
     height: 20px;
-
+    cursor: pointer;
 }
 /* PARTE INFERIOR*/
 .caixa-azul {
@@ -57,6 +59,10 @@ li{
     color: #626262;
     font-weight: 300px;
     margin-bottom: 30px;
+    animation-duration: 3s;
+    transition: all .3s;
+    text-transform: uppercase;
+    display: flex;
 }
 
 .botao {
