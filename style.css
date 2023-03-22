@@ -66,7 +66,14 @@ li{
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    transition: all .3s;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    z-index: 1;
+    text-transform: uppercase;
+    display: inline-block;
 }
+
 .escolha-cor{
     font-size: 16px;
     color: #3a3a3a;
@@ -106,7 +113,7 @@ li{
 
 
 .iphone {
-    width: 450px;
+    width: 24%;
     margin-top: 100px;
     z-index: 99;
 }
